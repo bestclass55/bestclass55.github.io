@@ -1,9 +1,10 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+author: sergeicheva
+excerpt: "Наш классный альбом"
+tags: []
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: title/1sent.jpg
+#  credit: WeGraphics
+#  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
