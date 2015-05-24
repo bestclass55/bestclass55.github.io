@@ -21,3 +21,13 @@
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+<!-- Slick slideshow plugin -->
+
+<script type="text/javascript" src="{{ site.url }}/assets/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.autoplay').slick({
+      autoplay: true
+    });
+  });
+</script>
