@@ -17,7 +17,7 @@
   <div class="image-wrap autoplay">
     {% for image in page.images %}
       <div>
-        <img src="{{ site.url }}/images/{{ image.feature }}" alt="{{ image.desc}}"/>
+        <img src="{{ site.url }}/images/{{ image.path }}" alt="{{ image.desc }}"/>
         {% if image.desc %}
         <div class="image-desc">
           {% if image.link %}
@@ -45,6 +45,9 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
+    {% for a in site.albums %}
+      Album: {{ a.path }}<br/>
+    {% endfor %}
     <h3><a href="{{ site.url}}/posts/">события</a></h3>
     {% for post in site.posts limit:5 %}    
     <article>
